@@ -25,8 +25,7 @@ class ProductCard extends StatelessWidget {
                 child: Image.network(
                   product.image,
                   fit: BoxFit.contain,
-                  errorBuilder: (_, __, ___) =>
-                      const Icon(Icons.image, size: 50),
+                  errorBuilder: (_, _, _) => const Icon(Icons.image, size: 50),
                 ),
               ),
             ),

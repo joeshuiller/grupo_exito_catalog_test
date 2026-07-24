@@ -4,6 +4,6 @@ class TimeUtils {
   static bool isExpressAvailable(DateTime currentTime) {
     final hour = currentTime.hour;
     // Permite de 10:00 AM inclusive hasta las 22:59 PM (11:00 PM no inclusive)
-    return hour >= 10 && hour < 23;
+    return hour >= 10 && hour < 16;
   }
 }
